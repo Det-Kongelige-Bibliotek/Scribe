@@ -8,3 +8,4 @@ db/mongod.lock
 .project
 config/mongodb.yml
 config/site_settings.yml
+.idea/*
