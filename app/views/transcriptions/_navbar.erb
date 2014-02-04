@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="/"><%= SiteConfig.application_name %></a>
@@ -16,6 +16,15 @@
     <li>
       <a href="#"><span class="glyphicon glyphicon-ok"></span> </a>
     </li>
+    <% if current_zooniverse_user %>
+    <li><a href="/transcribe">Transcribe</a></li>
+    <li><a href="/transcriptions/">My transcriptions</a></li>
+    <% end %>
+    <li><a href="/asset_collections/">Collections</a></li>
   </ul>
-  </div>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a>Currently transcribing <%=@collection.title %> Page <%= @asset.order %></a></li>
+    </ul>
+
+   </div>
 </nav>
