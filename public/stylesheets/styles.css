@@ -6,6 +6,7 @@ body{
 	height:100%;
 	margin: 0;
 	padding: 0;
+    padding-top: 70px;
 	background: url('../images/bgtexture.jpg');
 	background-color: #52708B;
 }
