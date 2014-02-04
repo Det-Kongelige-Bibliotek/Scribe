@@ -429,4 +429,13 @@ h1{
     font-size: 1.4em;
 }
 
+.entry-form {
+    margin-top: 31px;
+    clear: both;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
 

@@ -75,16 +75,16 @@ function stringForAnnotation(annotation){
 
 <% end %>
 
-
+<%= render partial: "navbar" %>
 <!-- page div is main transcription item -->
-<div id="page"></div>
+<div id="page" class="well"></div>
 <%if @collection%>
 	<div id="collection_front_page">
-		<%=image_tag @collection.front_page.location, :width=>"200"%>
+		<%#image_tag @collection.front_page.location, :width=>"200"%>
 
 	</div>
 <%end%>
 <div id="footer"></div>
 
-<%= render partial: "navbar" %>
+
 

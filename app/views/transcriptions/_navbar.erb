@@ -5,10 +5,12 @@
     </div>
   <ul class="nav navbar-nav">
     <li>
-        <a href="#"><span class="glyphicon glyphicon-user"></span> </a>
+        <a id="js_user-data" href="#">
+          <span class="glyphicon glyphicon-user"></span>
+        </a>
     </li>
     <li>
-      <a href="#"><span class="glyphicon glyphicon-calendar"></span> </a>
+      <a id="js_date" href="#"><span class="glyphicon glyphicon-calendar"></span> </a>
     </li>
     <li>
       <a href="#"><span class="glyphicon glyphicon-search"></span> </a>
@@ -27,4 +29,30 @@
     </ul>
 
    </div>
+</nav>
+<nav class="entry-form">
+  <div class="container">
+    <div id="user-data" class="hidden">
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="sender">Sender</label>
+            <div class="col-sm-4">
+            <input type="text" class="form-control" id="sender" placeholder="Sender">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="recipient">Recipient</label>
+            <div class="col-sm-4">
+            <input type="text" class="form-control" id="recipient" placeholder="Recipient">
+            </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-4">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
 </nav>
