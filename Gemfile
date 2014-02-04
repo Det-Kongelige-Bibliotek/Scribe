@@ -24,13 +24,13 @@ gem 'heroku'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-   gem 'webrat'
-   gem 'shoulda'
-   gem 'factory_girl_rails'
-   gem 'mocha'
-   gem 'autotest'
-   gem 'autotest-rails'
-	 gem 'jasmine'
+   #gem 'webrat'
+   #gem 'shoulda'
+   #gem 'factory_girl_rails'
+   #gem 'mocha'
+   #gem 'autotest'
+   #gem 'autotest-rails'
+	 #gem 'jasmine'
 	
 end
 
